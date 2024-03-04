@@ -1,0 +1,124 @@
+/************************************************/
+/************************************************/                                              
+/*       Ángel Domínguez Ruiz              */
+/*                                              */
+/*                                              */
+/************************************************/
+
+/*****************GENERAL************************/
+.w-40{
+    width: 40px;
+}
+
+
+.navbar-toggler-icon{
+    color: #10e128a0;
+}
+a .fa-motorcycle {
+    color: #10e128a0;
+}
+.fa-motorcycle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5em !important;
+    z-index: 98;
+}
+#navicon{
+    color: #10e128a0;
+}
+
+
+
+/**************NAVBAR******************/
+
+
+
+
+
+/***************HERO********************/
+#hero{
+    background-image: url(../img/1366_2000.jpeg);
+    background-size: cover;
+    border-radius: 10px
+}
+/***************FONTS******************/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* font-family: 'Bebas Neue', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* font-family: 'Montserrat', sans-serif;*/
+
+
+#texto{
+    font-family:'Montserrat', sans-serif;
+}
+/******************TEXTOS**************************/
+#navbar-link{
+    color: #10e128a0;
+}
+.btn-bike{
+    background-color: #10e128a0 !important 
+}
+.border-bike{
+    color: #10e128a0 !important
+}
+
+#linkinfo{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*****************Trayectoria *************************/
+#hTrayectoria{
+    font-family:'Bebas Neue', sans-serif;
+}
+
+/***************Compañeros de equipo **********************************/
+.containerCC {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    max-width: 1600px;
+    margin: auto;
+}
+
+.boxCC {
+    width: 100%; 
+    max-width: 400px; 
+    flex: 1 1 30%; 
+    position: relative;
+    overflow: hidden;
+    margin: 2%;
+    border: 3px solid #10e128a0;
+    border-radius: 20px;
+}
+
+.boxCC img {
+    width: 70%;
+    height: auto;
+}
+
+.capaCC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.boxCC:hover .capaCC {
+    transform: scale(1);
+    
+}
+.linkG{
+    color:#10e128a0;
+}
